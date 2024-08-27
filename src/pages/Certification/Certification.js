@@ -1,17 +1,16 @@
 import React from "react";
 import "./Certification.css";
-import RubberBand from "react-reveal/RubberBand";
 const Certification = () => {
   return (
     <>
       <div className="continer certificate" id="certification">
-      <RubberBand>
+      
         <h2 className="col-12 mt-3 mb-1 text-center text-uppercase">
           MY CERTIFICATE
         </h2>
         <hr />
         <p className="pb-3 text-center">Here are my TOP 3 Certificate</p>
-        </RubberBand>
+      
         {/* card design */}
         <div className="row" id="ads">
           <div className="col-md-4">

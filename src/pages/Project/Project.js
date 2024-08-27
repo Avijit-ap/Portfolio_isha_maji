@@ -1,17 +1,16 @@
 import React from "react";
 import "./Project.css";
-import RubberBand from "react-reveal/RubberBand";
 const Projects = () => {
   return (
     <>
       <div className="continer project" id="projects">
-        <RubberBand>
+        
           <h2 className="col-12 mt-3 mb-1 text-center text-uppercase">
             TOP RECENT PROJECTS
           </h2>
           <hr />
           <p className="pb-3 text-center">Here are my TOP 3 projects</p>
-        </RubberBand>
+        
         {/* card design */}
         <div className="row" id="ads">
           <div className="col-md-4">

@@ -8,7 +8,6 @@ import Techstack from "./pages/TechStack/Techstack";
 import WorkExp from "./pages/WorkExp/WorkExp";
 import ScrollToTop from "react-scroll-to-top";
 import { useTheme } from "./context/ThemeContext";
-import Tada from "react-reveal/Tada";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -29,9 +28,9 @@ function App() {
           <Contact />
         </div>
         <div className="footer pb-3 ms-3">
-          <Tada>
+          
             <h4 className="text-center">Made by 😍Isha &copy; 2024</h4>
-          </Tada>
+          
         </div>
       </div>
       <ScrollToTop

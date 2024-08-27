@@ -1,7 +1,6 @@
 import React from "react";
 import "./Home.css";
 import { useTheme } from "../../context/ThemeContext";
-import Fade from "react-reveal/Fade";
 import Typewriter from "typewriter-effect";
 import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
 
@@ -21,7 +20,7 @@ const Home = () => {
           )}
         </div>
         <div className="container home-content">
-          <Fade right>
+          
             <h2>Hi🙋🏻‍♀ I'm</h2>
             <h1>
               <Typewriter
@@ -37,8 +36,7 @@ const Home = () => {
                 }}
               />
             </h1>
-          </Fade>
-          <Fade bottom>
+          
             <div className="home-buttons">
               <button className="btn btn-hire">Hire me</button>
               <a
@@ -49,7 +47,7 @@ const Home = () => {
                 My Resume
               </a>
             </div>
-          </Fade>
+          
         </div>
       </div>
     </>

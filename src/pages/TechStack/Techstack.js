@@ -1,12 +1,11 @@
 import React from "react";
 import "./Techstack.css";
 import { TechstackList } from "../../Utils/TechstackList";
-import RubberBand from "react-reveal/RubberBand";
 const Techstack = () => {
   return (
     <>
       <div className="container techstack" id="techstack">
-        <RubberBand>
+       
           <h2 className="col-12 mt-3 mb-1 text-center text-uppercase">
             Technologies Stack
           </h2>
@@ -15,7 +14,7 @@ const Techstack = () => {
             👉Including Programming languages , frameworks , database ,
             Front-and and Back-and tools and API's.
           </p>
-        </RubberBand>
+        
         <div className="row">
           {TechstackList.map((tech) => (
             <div key={tech._id} className="col-md-3">
