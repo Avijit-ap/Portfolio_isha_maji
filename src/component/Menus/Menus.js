@@ -1,13 +1,13 @@
 import React from "react";
 import "./Menus.css";
 import { Link } from "react-scroll";
-import { BiCertification } from "react-icons/bi";
+import { PiCertificateThin } from "react-icons/pi";
+import { IoBookSharp } from "react-icons/io5";
 import {
   FcAbout,
   FcBiotech,
   FcBusinessContact,
   FcHome,
-  FcPortraitMode,
   FcReadingEbook,
   FcVideoProjector,
 } from "react-icons/fc";
@@ -17,13 +17,10 @@ const Menus = ({ toggle }) => {
     <>
       {toggle ? (
         <>
-          
-            <div className="navbar-profile-pic">
-              <img src="Isha.Passport.jpeg" alt="profile-pic" />
+        <div className="navbar-profile-pic">
+            <img src="Isha.Passport.jpeg" alt="profile-pic" />
             </div>
-          
-          
-            <div className="nav-items">
+           <div className="nav-items">
               <div className="nav-item">
                 <div className="nav-link">
                   <Link
@@ -57,7 +54,7 @@ const Menus = ({ toggle }) => {
                     offset={-100}
                     duration={100}
                   >
-                    <FcReadingEbook />
+                    <IoBookSharp />
                     Education
                   </Link>
                 </div>
@@ -70,7 +67,7 @@ const Menus = ({ toggle }) => {
                     offset={-100}
                     duration={100}
                   >
-                    <FcPortraitMode />
+                    <FcReadingEbook />
                     Work Experince
                   </Link>
                 </div>
@@ -109,7 +106,7 @@ const Menus = ({ toggle }) => {
                     offset={-100}
                     duration={100}
                   >
-                    <BiCertification />
+                    <PiCertificateThin />
                     Certification
                   </Link>
                 </div>
@@ -164,7 +161,7 @@ const Menus = ({ toggle }) => {
                   offset={-100}
                   duration={100}
                 >
-                  <FcReadingEbook />
+                  <IoBookSharp />
                 </Link>
               </div>
 
@@ -176,7 +173,7 @@ const Menus = ({ toggle }) => {
                   offset={-100}
                   duration={100}
                 >
-                  <FcPortraitMode />
+                  <FcReadingEbook />
                 </Link>
               </div>
 
@@ -212,7 +209,7 @@ const Menus = ({ toggle }) => {
                   offset={-100}
                   duration={100}
                 >
-                  <BiCertification />
+                  <PiCertificateThin />
                   Certification
                 </Link>
               </div>

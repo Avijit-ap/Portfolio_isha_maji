@@ -1,4 +1,4 @@
-import Layout from "./component/Layout/Layout"; // Corrected the import to use uppercase
+import Layout from "./component/Layout/Layout"; 
 import About from "./pages/About/About";
 import Certification from "./pages/Certification/Certification";
 import Contact from "./pages/Contact/Contact";
